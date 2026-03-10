@@ -90,65 +90,72 @@ elif page == "💼 Work Experience":
 elif page == "📂 Projects":
     st.title("📂 Projects")
 
-st.markdown("### 🛡️ Cybersecurity Project Portfolio")
-st.write("Hands-on security projects demonstrating **GRC auditing, security operations, threat detection, and vulnerability assessment.**")
+    st.markdown("### 🛡️ Cybersecurity Project Portfolio")
+    st.write("Hands-on security projects demonstrating **GRC auditing, security operations, threat detection, and vulnerability assessment.**")
 
-col1, col2, col3, col4 = st.columns(4)
+    col1, col2, col3, col4 = st.columns(4)
 
-col1.metric("Projects", "4")
-col2.metric("Security Domains", "3")
-col3.metric("Frameworks Used", "NIST / PCI / GDPR")
-col4.metric("Focus", "SOC + GRC")
+    col1.metric("Projects", "4")
+    col2.metric("Security Domains", "3")
+    col3.metric("Frameworks Used", "NIST / PCI / GDPR")
+    col4.metric("Focus", "SOC + GRC")
+
     # Project 1
     st.subheader("🛡️ ISO 27001:2022 GRC Automation Framework")
     st.write("📅 Date: 2025")
     st.success("Risk Level: Governance & Compliance")
+
     with st.expander("View Details"):
         st.write("""
 - Simulates GRC workflows aligned with ISO 27001:2022.
 - Automated risk register updates (Python) and Annex A control tracking (YAML).
 - Streamlit dashboard for compliance metrics & auto-generated SoA.
 - GitHub Actions for continuous compliance validation.
+
 **Tech:** Python, YAML, Streamlit, Power BI, GitHub Actions
 """)
-        st.markdown("[📂 GitHub Repository](https://github.com/Abhijay170901/ISO27001-GRC-Automation)", unsafe_allow_html=True)
+        st.markdown("[📂 GitHub Repository](https://github.com/Abhijay170901/ISO27001-GRC-Automation)")
 
     # Project 2
     st.subheader("🌐 Web Application Vulnerability Assessment – DVWA")
     st.write("📅 Date: 2025")
     st.error("Risk Level: Critical")
+
     with st.expander("View Details"):
         st.write("""
 - Conducted automated vulnerability scans on DVWA using OWASP ZAP.
 - Assessed security headers, cookies, session management, and server info.
 - Provided professional recommendations for medium & low-risk findings.
+
 **Tech:** OWASP ZAP, Python, Reporting
 """)
-        st.markdown("[📂 GitHub Repository](https://github.com/Abhijay170901/webapp-vuln-assessment)", unsafe_allow_html=True)
+        st.markdown("[📂 GitHub Repository](https://github.com/Abhijay170901/webapp-vuln-assessment)")
 
     # Project 3
     st.subheader("🚨 Incident Response Automation")
     st.write("📅 Date: 2025")
     st.warning("Risk Level: High")
+
     with st.expander("View Details"):
         st.write("""
 - Automates detection → response → notification in SOC environment.
 - Parses alerts, triages by severity, triggers contextual responses, logs all actions.
 - Includes CI/CD workflow using GitHub Actions for repeatable simulation.
+
 **Tech:** Python, PowerShell, GitHub Actions, JSON Reporting
 """)
-        st.markdown("[📂 GitHub Repository](https://github.com/Abhijay170901/incident-response-automation)", unsafe_allow_html=True)
+        st.markdown("[📂 GitHub Repository](https://github.com/Abhijay170901/incident-response-automation)")
 
+    # Project 4
     st.subheader("🔍 Enterprise Cybersecurity Risk Assessment – Botium Toys")
-st.write("📅 March 2026")
-st.error("Risk Level: Critical")
+    st.write("📅 Date: March 2026")
+    st.error("Risk Level: Critical")
 
-with st.expander("View Security Audit Details"):
-    st.write("""
+    with st.expander("View Security Audit Details"):
+        st.write("""
 Conducted a full **cybersecurity risk assessment and control gap analysis** for Botium Toys, a fictional retail organization.
 
 Security assessment evaluated:
-
 • IT infrastructure and employee devices  
 • Ecommerce and database systems  
 • Data storage and protection mechanisms  
@@ -156,7 +163,6 @@ Security assessment evaluated:
 • Business continuity and disaster recovery planning  
 
 Key Findings:
-
 • Excessive internal access to sensitive data  
 • Lack of encryption for payment information  
 • No formal disaster recovery or backup strategy  
@@ -165,13 +171,11 @@ Key Findings:
 • Incomplete asset inventory  
 
 Framework Alignment:
-
 • NIST Cybersecurity Framework (CSF)  
 • PCI DSS  
 • GDPR data protection principles  
 
 Deliverables:
-
 • Executive security audit report  
 • Risk prioritization matrix  
 • Security control gap analysis  
@@ -179,9 +183,7 @@ Deliverables:
 • Continuous security monitoring metrics
 """)
 
-    st.markdown("📂 **View Full Audit Report:**")
-    st.markdown("https://github.com/Abhijay170901/Cybersecurity-Risk-Assessment-Botium-Toys")
-
+        st.markdown("[📂 View Full Audit Report](https://github.com/Abhijay170901/Cybersecurity-Risk-Assessment-Botium-Toys)")
 # ------------------ EDUCATION ------------------
 elif page == "🎓 Education":
     st.title("🎓 Education")
