@@ -187,7 +187,7 @@ Deliverables:
 # ------------------ EDUCATION ------------------
 elif page == "🎓 Education":
     st.title("🎓 Education")
-    st.write("## Master's in Cybersecurity")
+    st.write("## Cybersecurity")
     st.write("📍 Bow Valley College | Sep 2024 – Apr 2025")
     st.write("Focus Areas: Cybersecurity Operations, GRC, Incident Response")
 
