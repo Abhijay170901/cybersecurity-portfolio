@@ -95,10 +95,10 @@ elif page == "📂 Projects":
 
     col1, col2, col3, col4 = st.columns(4)
 
-    col1.metric("Projects", "4")
-    col2.metric("Security Domains", "3")
+    col1.metric("Projects", "5")
+    col2.metric("Security Domains", "4")
     col3.metric("Frameworks Used", "NIST / PCI / GDPR")
-    col4.metric("Focus", "SOC + GRC")
+    col4.metric("Focus", "SOC + GRC + AI-SecOps")
 
     # Project 1
     st.subheader("🛡️ ISO 27001:2022 GRC Automation Framework")
@@ -115,6 +115,7 @@ elif page == "📂 Projects":
 **Tech:** Python, YAML, Streamlit, Power BI, GitHub Actions
 """)
         st.markdown("[📂 GitHub Repository](https://github.com/Abhijay170901/ISO27001-GRC-Automation)")
+        st.markdown("[🚀 Launch App](https://iso27001-grc-automation-vbscmti96vsawyegwlpfwj.streamlit.app/)")
 
     # Project 2
     st.subheader("🌐 Web Application Vulnerability Assessment – DVWA")
@@ -182,8 +183,23 @@ Deliverables:
 • Security improvement roadmap  
 • Continuous security monitoring metrics
 """)
-
         st.markdown("[📂 View Full Audit Report](https://github.com/Abhijay170901/Cybersecurity-Risk-Assessment-Botium-Toys)")
+
+    # Project 5 – NEW
+    st.subheader("🛡️ AI-SecOps Prompt Intelligence Platform")
+    st.write("📅 Date: 2026")
+    st.info("Focus: AI-assisted SOC Operations & Threat Intelligence")
+
+    with st.expander("View Project Details"):
+        st.write("""
+- Developed an **AI-powered cybersecurity operations platform** to generate structured prompts for SOC analysts.  
+- Covers **20+ prompts across Web Security, Threat Hunting, Phishing, Identity & Password Security, and DevSecOps**.  
+- Includes **MITRE ATT&CK mapping, threat context, detection methodology, and recommended remediation**.  
+- Features a **searchable prompt library, filtering by security domain, and AI prompt generator** for real-time investigations.
+
+**Tech:** Python, Streamlit, JSON, GitHub, AI-assisted Prompt Engineering
+""")
+        st.markdown("[🚀 Launch AI-SecOps Platform](https://cyber-prompt-app.streamlit.app/)")
 # ------------------ EDUCATION ------------------
 elif page == "🎓 Education":
     st.title("🎓 Education")
