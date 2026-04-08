@@ -196,3 +196,40 @@ elif page == "📂 Projects":
         Conducted a full **cybersecurity risk assessment and control gap analysis** for Botium Toys 
         """)
 st.markdown("[📂 GitHub Repository](https://github.com/Abhijay170901/Cybersecurity-Risk-Assessment-Botium-Toys/blob/main/Cybersecurity-Audit-Report.pdf)")
+# Project 6
+    st.subheader("🌐 Web Application Vulnerability Assessment – DVWA")
+    st.write("📅 Date: 2025")
+    st.error("Risk Level: Critical")
+
+    with st.expander("View Details"):
+        st.write("""
+        - Conducted automated vulnerability scans on DVWA using OWASP ZAP.
+        - Assessed security headers, cookies, session management, and server info.
+        - Provided professional recommendations for medium & low-risk findings.
+
+        **Tech:** OWASP ZAP, Python, Reporting
+        """)
+        st.markdown("[📂 GitHub Repository](https://github.com/Abhijay170901/webapp-vuln-assessment)")
+
+# ------------------ EDUCATION ------------------
+elif page == "🎓 Education":
+    st.title("🎓 Education")
+    st.write("### Cybersecurity")
+    st.write("📍 Bow Valley College | Sep 2024 – Apr 2025")
+    st.write("Focus Areas: Cybersecurity Operations, GRC, Incident Response")
+
+    st.markdown("---")
+    st.write("### Computer Applications Development")
+    st.write("📍 Conestoga College | Sep 2023 – Aug 2024")
+    
+    st.markdown("---")
+    st.write("### Mechanical Engineering")
+    st.write("📍 Bhausaheb Vartak Polytechnic | 2019 – 2021")
+
+# ------------------ CERTIFICATIONS ------------------
+elif page == "🏆 Certifications":
+    st.title("🏆 Certifications")
+    st.markdown("""
+    - **EC-Council Network Defense Essentials V1**
+    - *(Add your other certifications here)*
+    """)
