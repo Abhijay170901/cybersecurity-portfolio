@@ -135,8 +135,8 @@ elif page == "📂 Projects":
 
         **Tech:** KQL, Microsoft Sentinel, Defender XDR, Python, Streamlit, SOAR
         """)
-        st.markdown("[📂 GitHub Repository](YOUR_GITHUB_LINK_HERE)")
-        st.markdown("[🚀 Launch Framework App](YOUR_STREAMLIT_LINK_HERE)")
+        st.markdown("[📂 GitHub Repository](https://github.com/Abhijay170901/Detection-Engineering-Framework)")
+        st.markdown("[🚀 Launch Framework App](https://detection-engineering-framework.streamlit.app/)")
 
     # Project 2
     st.subheader("🛡️ AI-SecOps Prompt Intelligence Platform")
@@ -195,3 +195,4 @@ elif page == "📂 Projects":
         st.write("""
         Conducted a full **cybersecurity risk assessment and control gap analysis** for Botium Toys 
         """)
+st.markdown("[📂 GitHub Repository](https://github.com/Abhijay170901/Cybersecurity-Risk-Assessment-Botium-Toys/blob/main/Cybersecurity-Audit-Report.pdf)")
