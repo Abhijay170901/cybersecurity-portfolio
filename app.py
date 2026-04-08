@@ -232,5 +232,4 @@ elif page == "🏆 Certifications":
     st.title("🏆 Certifications")
     st.markdown("""
     - **EC-Council Network Defense Essentials V1**
-    - *(Add your other certifications here)*
     """)
