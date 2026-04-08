@@ -195,8 +195,9 @@ elif page == "📂 Projects":
         st.write("""
         Conducted a full **cybersecurity risk assessment and control gap analysis** for Botium Toys 
         """)
-st.markdown("[📂 GitHub Repository](https://github.com/Abhijay170901/Cybersecurity-Risk-Assessment-Botium-Toys/blob/main/Cybersecurity-Audit-Report.pdf)")
-# Project 6
+        st.markdown("[📂 GitHub Repository](https://github.com/Abhijay170901/Cybersecurity-Risk-Assessment-Botium-Toys/blob/main/Cybersecurity-Audit-Report.pdf)")
+
+    # Project 6
     st.subheader("🌐 Web Application Vulnerability Assessment – DVWA")
     st.write("📅 Date: 2025")
     st.error("Risk Level: Critical")
