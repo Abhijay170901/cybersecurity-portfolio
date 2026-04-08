@@ -193,4 +193,5 @@ elif page == "📂 Projects":
 
     with st.expander("View Security Audit Details"):
         st.write("""
-        Conducted a full **cybersecurity risk assessment and control gap analysis** for Botium
+        Conducted a full **cybersecurity risk assessment and control gap analysis** for Botium Toys 
+        """)
